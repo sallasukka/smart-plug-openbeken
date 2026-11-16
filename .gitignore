@@ -1,0 +1,7 @@
+# Laitekohtaiset varmuuskopiot: sisältävät Tuya-avaimia ja WiFi-tunnuksia, ÄLÄ julkaise
+backup/
+*.bin
+*.rbl
+fw/
+venv/
+.env
