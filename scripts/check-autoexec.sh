@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Tarkistaa kellon, ajastukset ja releen tilan
+# Checks the clock, timers and relay state
 . "$(dirname "$0")/common.sh"
-echo "== Kello / NTP";      cmnd "ntp_info"
-echo "== Aikataulut";       cmnd "listClockEvents"
-echo "== Tila";             "$(dirname "$0")/status.sh"
-echo "(Tarkemmat tulosteet näkyvät web-käyttöliittymän Logs-välilehdellä.)"
+echo "== Clock / NTP";      cmnd "ntp_info"
+echo "== Clock events";       cmnd "listClockEvents"
+echo "== Status";             "$(dirname "$0")/status.sh"
+echo "(More detailed output is in the web UI's Logs tab.)"

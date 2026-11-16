@@ -1,4 +1,4 @@
-# Laitekohtaiset varmuuskopiot: sisältävät Tuya-avaimia ja WiFi-tunnuksia, ÄLÄ julkaise
+# Device backups contain Tuya keys and WiFi credentials - NEVER publish
 backup/
 *.bin
 *.rbl
