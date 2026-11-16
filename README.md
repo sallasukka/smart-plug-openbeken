@@ -42,7 +42,8 @@ Tai selaimella `http://<PLUG_IP>`. Lisää: [docs/kaytto.md](docs/kaytto.md).
 ## Dokumentaatio
 
 - [docs/flashaus.md](docs/flashaus.md) – kytkennät, varmuuskopio, flashaus, käyttöönotto
-- [docs/kaytto.md](docs/kaytto.md) – OTA, WiFi-varaverkko, palautus, Home Assistant
+- [docs/kaytto.md](docs/kaytto.md) – OTA, brickaantumisriski, WiFi-varaverkko, palautus, Home Assistant
+- [docs/tietoturva.md](docs/tietoturva.md) – **tietoturvariskit ja tarkistuslista**
 - [docs/vianetsinta.md](docs/vianetsinta.md) – mitä matkan varrella meni pieleen ja miksi
 
 ## Mitä repossa EI ole
