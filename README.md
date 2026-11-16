@@ -54,3 +54,21 @@ Or use a browser at `http://<PLUG_IP>`. More: [docs/usage.md](docs/usage.md).
 Firmware files and the device backup are in `.gitignore`. The stock flash dump contains
 device-specific Tuya keys and WiFi credentials, so it must not be published.
 OpenBeken is always downloaded straight from the project's releases.
+
+## Credits
+
+This repo only contains setup notes and helper scripts. All the real work is done by:
+
+- [OpenBeken](https://github.com/openshwprojects/OpenBK7231T_App) – the open-source firmware, by openshwprojects and contributors
+- [bk7231tools](https://github.com/tuya-cloudcutter/bk7231tools) – reading and dissecting the Beken flash
+- [ltchiptool](https://github.com/libretiny-eu/ltchiptool) – flashing, by the LibreTiny project
+- [tuya-cloudcutter](https://github.com/tuya-cloudcutter/tuya-cloudcutter) – wireless flashing research for Tuya devices
+- The [Elektroda](https://www.elektroda.com/) community – device teardowns, guides and troubleshooting
+
+The documentation and scripts were written with the help of [Claude](https://claude.ai) (Anthropic).
+
+## License
+
+The scripts and documentation in this repository are released under the [MIT License](LICENSE).
+This license covers only the contents of this repository. OpenBeken and the tools listed
+above are separate projects under their own licenses.
