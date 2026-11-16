@@ -5,3 +5,4 @@ backup/
 fw/
 venv/
 .env
+config/autoexec.bat

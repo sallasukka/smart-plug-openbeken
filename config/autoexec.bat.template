@@ -1,0 +1,18 @@
+// PFW02-G kahvinkeitin – OpenBeken autoexec.bat
+// Generoitu: scripts/deploy-autoexec.sh (älä muokkaa laitteella, vaan .env:ssä)
+
+// --- Kello: NTP + Suomen aika (EET, kesäaika EEST) ---
+startDriver NTP
+@NTP_LINE@
+time_setTZ 2
+// Kesäaika: maaliskuun viim. su klo 3 (+1 h), lokakuun viim. su klo 4 (takaisin)
+TIME_setDST 0 3 1 3 1 0 10 1 4 0
+
+// --- Automaattinen sammutus ---
+// Kun rele menee päälle, ajastetaan sammutus @AUTO_OFF_MIN@ min päähän.
+// Jos rele sammutetaan aiemmin, ajastus perutaan.
+AddChangeHandler Channel1 == 1 addRepeatingEventUID @AUTO_OFF_SEC@ 1 10 setChannel 1 0
+AddChangeHandler Channel1 == 0 cancelRepeatingEvent 10
+
+// --- Aamuajastus ---
+@MORNING_LINE@

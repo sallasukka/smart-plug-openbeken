@@ -35,6 +35,7 @@ Sen jälkeen WiFi-tunnukset: liity verkkoon `OpenBK7231N_XXXXXXXX` → http://19
 scripts/status.sh                 # firmware, WiFi, uptime, rele
 scripts/relay.sh on|off|toggle
 scripts/ota.sh                    # langaton päivitys .rbl-tiedostolla
+scripts/deploy-autoexec.sh        # kahvinkeitinautomaatiot laitteelle
 ```
 
 Tai selaimella `http://<PLUG_IP>`. Lisää: [docs/kaytto.md](docs/kaytto.md).
@@ -43,6 +44,7 @@ Tai selaimella `http://<PLUG_IP>`. Lisää: [docs/kaytto.md](docs/kaytto.md).
 
 - [docs/flashaus.md](docs/flashaus.md) – kytkennät, varmuuskopio, flashaus, käyttöönotto
 - [docs/kaytto.md](docs/kaytto.md) – OTA, brickaantumisriski, WiFi-varaverkko, palautus, Home Assistant
+- [docs/kahvinkeitin.md](docs/kahvinkeitin.md) – automaattinen sammutus, aamuajastus, sähkökatko
 - [docs/tietoturva.md](docs/tietoturva.md) – **tietoturvariskit ja tarkistuslista**
 - [docs/vianetsinta.md](docs/vianetsinta.md) – mitä matkan varrella meni pieleen ja miksi
 
